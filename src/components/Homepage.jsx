@@ -2,7 +2,7 @@ import React from 'react'
 import NavSection from './Navsection'
 
 import Footer from './Footer'
-import HeadSection from './HeadSection'
+import HeadSection from './Headsection'
 
 function Homepage() {
   return (

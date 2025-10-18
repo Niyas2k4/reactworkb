@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css'
 import Navsection from './components/Navsection'
-import HeadSection from "./components/HeadSection";
+import HeadSection from "./components/Headsection";
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom'
 import Homepage from './components/Homepage';
@@ -28,7 +28,7 @@ function App() {
     <>
 <Routes>
   <>
-  <Route path='/' element={<Homepage></Homepage>}/>
+  <Route path='/Portpholio' element={<Homepage></Homepage>}/>
   <Route path='/About' element={
     <>
     <Navsection></Navsection>
