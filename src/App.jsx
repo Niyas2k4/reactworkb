@@ -5,7 +5,7 @@ import './App.css'
 import Navsection from './components/Navsection'
 import HeadSection from "./components/Headsection";
 import Footer from './components/Footer';
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Homepage from './components/Homepage';
 import About from './components/About';
 import Aboutpb from './components/Aboutpb';
@@ -15,77 +15,56 @@ import Service from './components/Service';
 import ServiceTop from './components/ServiceTop';
 import PortfolioDetails from './components/PortfolioDetails';
 
-
-
-
-
-
 function App() {
-  
-  
-
   return (
-    <>
-<Routes>
-  <>
-  <Route path='/Portpholio' element={<Homepage></Homepage>}/>
-  <Route path='/About' element={
-    <>
-    <Navsection></Navsection>
-    <About></About>
-    <Aboutpb></Aboutpb>
-    <Footer></Footer>
-    </>
-    }/>
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
 
+        <Route path='/About' element={
+          <>
+            <Navsection />
+            <About />
+            <Aboutpb />
+            <Footer />
+          </>
+        }/>
 
-  <Route path='/Gallery' element={
-    <>
-    <Navsection></Navsection>
-    <Gallery></Gallery>
-    <Footer></Footer>
-    </>
-    }/>
+        <Route path='/Gallery' element={
+          <>
+            <Navsection />
+            <Gallery />
+            <Footer />
+          </>
+        }/>
 
- <Route path='/Contact' element={
-    <>
-    <Navsection></Navsection>
-    <Contact></Contact>
-    <Footer></Footer>
-    </>
-    }/>
+        <Route path='/Contact' element={
+          <>
+            <Navsection />
+            <Contact />
+            <Footer />
+          </>
+        }/>
 
+        <Route path='/Service' element={
+          <>
+            <Navsection />
+            <ServiceTop />
+            <Service />
+            <Aboutpb />
+            <Footer />
+          </>
+        }/>
 
- <Route path='/Service' element={
-    <>
-    <Navsection></Navsection>
-    <ServiceTop></ServiceTop>
-    <Service></Service>
-    <Aboutpb></Aboutpb>
-    <Footer></Footer>
-    </>
-    }/>
-
-
- <Route path='/GallerySingle' element={
-    <>
-    <Navsection></Navsection>
-    <PortfolioDetails></PortfolioDetails>
-    <Footer></Footer>
-    </>
-    }/>
-
-
-  </>
-
-
-  
-</Routes>
-
-  
-
-</>
-      
+        <Route path='/GallerySingle' element={
+          <>
+            <Navsection />
+            <PortfolioDetails />
+            <Footer />
+          </>
+        }/>
+      </Routes>
+    </HashRouter>
   )
 }
 
