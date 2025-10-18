@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css'
 import Navsection from './components/Navsection'
-import HeadSection from "./components/Headsection";
+import HeadSection from "./components/HeadSection";
 import Footer from './components/Footer';
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import Homepage from './components/Homepage';
