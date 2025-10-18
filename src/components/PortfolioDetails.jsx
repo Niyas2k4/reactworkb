@@ -4,11 +4,11 @@ import "./PortfolioDetails.css";
 
 function PortfolioDetails() {
   const images = [
-    "/gallery-8.jpg",
-    "/gallery-9.jpg",
-    "/gallery-10.jpg",
-    "/gallery-11.jpg",
-    "/gallery-12.jpg",
+    "${import.meta.env.BASE_URL}gallery-8.jpg",
+    "${import.meta.env.BASE_URL}gallery-9.jpg",
+    "${import.meta.env.BASE_URL}gallery-10.jpg",
+    "${import.meta.env.BASE_URL}gallery-11.jpg",
+    "${import.meta.env.BASE_URL}gallery-12.jpg",
   ];
 
   return (
