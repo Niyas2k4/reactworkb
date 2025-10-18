@@ -5,5 +5,5 @@ import { HashRouter } from 'react-router-dom';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/reactworkb/', // 👈 your repo name here
+  base: '/Portpholio/', // 👈 your repo name here
 })
