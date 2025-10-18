@@ -1,7 +1,8 @@
 import React from 'react'
 import NavSection from './Navsection'
-import HeadSection from './HeadSection'
+
 import Footer from './Footer'
+import HeadSection from './Headsection'
 
 function Homepage() {
   return (

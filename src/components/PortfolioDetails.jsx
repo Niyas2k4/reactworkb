@@ -4,11 +4,11 @@ import "./PortfolioDetails.css";
 
 function PortfolioDetails() {
   const images = [
-    "/src/assets/gallery-8.jpg",
-    "/src/assets/gallery-9.jpg",
-    "/src/assets/gallery-10.jpg",
-    "/src/assets/gallery-11.jpg",
-    "/src/assets/gallery-12.jpg",
+    "/gallery-8.jpg",
+    "/gallery-9.jpg",
+    "/gallery-10.jpg",
+    "/gallery-11.jpg",
+    "/gallery-12.jpg",
   ];
 
   return (
@@ -91,7 +91,7 @@ function PortfolioDetails() {
                 </p>
                 <div className="d-flex align-items-center mt-3">
                   <img
-                    src="/src/assets/testimonials-2.jpg"
+                    src="/testimonials-2.jpg"
                     alt="author"
                     className="rounded-circle me-3"
                     style={{ width: "60px", height: "60px", objectFit: "cover" }} // smaller profile size

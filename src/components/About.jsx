@@ -38,7 +38,7 @@ const About = () => {
             <Card className="bg-dark border-0">
               <Card.Img
                 variant="top"
-                src="\src\assets\about-profile-img.jpg" // placeholder
+                src="\about-profile-img.jpg" // placeholder
                 alt="About"
               />
             </Card>

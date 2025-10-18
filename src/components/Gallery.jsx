@@ -6,14 +6,14 @@ import "./HeadSection.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const images = [
-  { src: "/src/assets/gallery-1.jpg", link: "/GallerySingle", alt: "Tree" },
-  { src: "/src/assets/gallery-2.jpg", link: "/GallerySingle", alt: "Hot Air Balloons" },
-  { src: "/src/assets/gallery-3.jpg", link: "/GallerySingle", alt: "Green Landscape" },
-  { src: "/src/assets/gallery-4.jpg", link: "/GallerySingle", alt: "Beach" },
-  { src: "/src/assets/gallery-5.jpg", link: "/GallerySingle", alt: "Forest" },
-  { src: "/src/assets/gallery-6.jpg", link: "/GallerySingle", alt: "Mountain" },
-  { src: "/src/assets/gallery-7.jpg", link: "/GallerySingle", alt: "Lake" },
-  { src: "/src/assets/gallery-8-2.jpg", link: "/GallerySingle", alt: "Desert" },
+  { src: "/gallery-1.jpg", link: "/GallerySingle", alt: "Tree" },
+  { src: "/gallery-2.jpg", link: "/GallerySingle", alt: "Hot Air Balloons" },
+  { src: "/gallery-3.jpg", link: "/GallerySingle", alt: "Green Landscape" },
+  { src: "/gallery-4.jpg", link: "/GallerySingle", alt: "Beach" },
+  { src: "/gallery-5.jpg", link: "/GallerySingle", alt: "Forest" },
+  { src: "/gallery-6.jpg", link: "/GallerySingle", alt: "Mountain" },
+  { src: "/gallery-7.jpg", link: "/GallerySingle", alt: "Lake" },
+  { src: "/gallery-8-2.jpg", link: "/GallerySingle", alt: "Desert" },
 ];
 
 function Gallery() {
