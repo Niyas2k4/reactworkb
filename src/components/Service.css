@@ -1,0 +1,59 @@
+.service-section {
+  background-color: #000;
+}
+
+.service-card {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  overflow: hidden;
+  color: white !important;
+  transition: all 0.4s ease;
+  p{
+    color: white !important;
+  }
+}
+
+.icon-wrap i {
+  font-size: 2rem;
+  color: #2dbf78;
+  transition: all 0.4s ease;
+}
+
+.service-card::after {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2dbf78;
+  transition: all 0.4s ease;
+  z-index: 0;
+}
+
+.service-card:hover::after {
+  bottom: 0;
+}
+
+.service-card:hover .icon-wrap i,
+.service-card:hover h5,
+.service-card:hover p {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.service-card:hover .icon-wrap i {
+  transform: translateY(-3px);
+}
+
+.pricing-section {
+  margin-top: 5rem;
+}
+
+.pricing-item {
+  font-family: 'Poppins', sans-serif;
+  border-color: rgba(255,255,255,0.1);
+}
