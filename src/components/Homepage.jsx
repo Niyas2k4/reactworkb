@@ -8,7 +8,7 @@ function Homepage() {
   return (
    <>
       <NavSection></NavSection>
-      {/* <HeadSection></HeadSection> */}
+      <HeadSection></HeadSection>
       <Footer></Footer>
    </>
   )
