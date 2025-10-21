@@ -38,7 +38,7 @@ const About = () => {
             <Card className="bg-dark border-0">
               <Card.Img
                 variant="top"
-                src="${import.meta.env.BASE_URL}about-profile-img.jpg" // placeholder
+                src="\about-profile-img.jpg" // placeholder
                 alt="About"
               />
             </Card>

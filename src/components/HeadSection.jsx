@@ -4,14 +4,14 @@ import { FaLink, FaExpand } from "react-icons/fa";
 import "./HeadSection.css";
 
 const images = [
-  { src: "${import.meta.env.BASE_URL}gallery-1.jpg", link: "/GallerySingle", alt: "Tree" },
-  { src: "${import.meta.env.BASE_URL}gallery-2.jpg", link: "/GallerySingle", alt: "Hot Air Balloons" },
-  { src: "${import.meta.env.BASE_URL}gallery-3.jpg", link: "/GallerySingle", alt: "Green Landscape" },
-  { src: "${import.meta.env.BASE_URL}gallery-4.jpg", link: "/GallerySingle", alt: "Beach" },
-  { src: "${import.meta.env.BASE_URL}gallery-5.jpg", link: "/GallerySingle", alt: "Forest" },
-  { src: "${import.meta.env.BASE_URL}gallery-6.jpg", link: "/GallerySingle", alt: "Mountain" },
-  { src: "${import.meta.env.BASE_URL}gallery-7.jpg", link: "/GallerySingle", alt: "Lake" },
-  { src: "${import.meta.env.BASE_URL}gallery-8-2.jpg",link: "/GallerySingle", alt: "Desert" },
+  { src: "/gallery-1.jpg", link: "/GallerySingle", alt: "Tree" },
+  { src: "/gallery-2.jpg", link: "/GallerySingle", alt: "Hot Air Balloons" },
+  { src: "/gallery-3.jpg", link: "/GallerySingle", alt: "Green Landscape" },
+  { src: "/gallery-4.jpg", link: "/GallerySingle", alt: "Beach" },
+  { src: "/gallery-5.jpg", link: "/GallerySingle", alt: "Forest" },
+  { src: "/gallery-6.jpg", link: "/GallerySingle", alt: "Mountain" },
+  { src: "/gallery-7.jpg", link: "/GallerySingle", alt: "Lake" },
+  { src: "/gallery-8-2.jpg",link: "/GallerySingle", alt: "Desert" },
 ];
 
 const HeadSection = () => {

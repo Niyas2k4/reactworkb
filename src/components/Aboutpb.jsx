@@ -6,21 +6,21 @@ const testimonials = [
   {
     name: 'Saul Goodman',
     title: 'CEO & Founder',
-    img: '${import.meta.env.BASE_URL}testimonials-4.jpg', // Replace with your image path
+    img: '/testimonials-4.jpg', // Replace with your image path
     text: 'Pa corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper. fbfgh roin iacuatur quasi soluta corporis delenitisemper. ffdhfthdfddhbz sddhghdfdh xddgd xgg roin iacuatur quasi soluta corporis delenitisemper.',
     rating: 5,
   },
   {
     name: 'Sara Wilsson',
     title: 'Designer',
-    img: '${import.meta.env.BASE_URL}testimonials-3.jpg',
+    img: '/testimonials-3.jpg',
     text: 'Proin iacuatur quasi soluta corporis del dfhfg hghfg dfh enitisemper.roin iacua isemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper. fbfgh roin iacuatur quasi soluta corporis delenitisemper. ffdhfthdfddhbz sddhghdfdh xddgd xgg roin iacuatur quasi soluta corporis delenitisemper.',
     rating: 5,
   },
   {
     name: 'Jena Karlis',
     title: 'Store Owner',
-    img: '${import.meta.env.BASE_URL}testimonials-2.jpg',
+    img: '/testimonials-2.jpg',
     text: 'Ps delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper.roin iacuatur quasi soluta corporis delenitisemper. fbfgh roin iacuatur quasi soluta corporis delenitisemper. ffdhfthdfddhbz sddhghdfdh xddgd xgg roin iacuatur quasi soluta corporis delenitisemper.',
     rating: 5,
   },
