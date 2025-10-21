@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { FaLink, FaExpand } from "react-icons/fa";
+import { Link } from "react-router-dom"; // ← Already imported
+
 import "./HeadSection.css";
 
 const images = [
@@ -11,7 +13,7 @@ const images = [
   { src: "/gallery-5.jpg", link: "/GallerySingle", alt: "Forest" },
   { src: "/gallery-6.jpg", link: "/GallerySingle", alt: "Mountain" },
   { src: "/gallery-7.jpg", link: "/GallerySingle", alt: "Lake" },
-  { src: "/gallery-8-2.jpg",link: "/GallerySingle", alt: "Desert" },
+  { src: "/gallery-8-2.jpg", link: "/GallerySingle", alt: "Desert" },
 ];
 
 const HeadSection = () => {
@@ -37,9 +39,11 @@ const HeadSection = () => {
                 <div className="image-container">
                   <Card.Img src={img.src} alt={img.alt} className="image" />
                   <div className="overlay d-flex justify-content-center align-items-center gap-3">
-                    <a href={img.link} target="_blank" rel="noopener noreferrer">
+                    {/* FIXED: Use Link instead of a tag for internal navigation */}
+                    <Link to={img.link}>
                       <FaLink className="icon" />
-                    </a>
+                    </Link>
+                    {/* Keep target="_blank" for external image view */}
                     <a href={img.src} target="_blank" rel="noopener noreferrer">
                       <FaExpand className="icon" />
                     </a>

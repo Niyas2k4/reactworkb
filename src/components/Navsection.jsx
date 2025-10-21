@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+// import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from "react-router-dom";
 // import "./NavSection.css"; // optional small css
 
@@ -19,26 +20,20 @@ function NavSection() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/About">About</Nav.Link>
-
-            <NavDropdown title="Gallery" id="gallery-dropdown" menuVariant="dark">
-              <NavDropdown.Item href="/Gallery">Nature</NavDropdown.Item>
-              <NavDropdown.Item href="/Gallery">People</NavDropdown.Item>
-              <NavDropdown.Item href="/Gallery">Architecture</NavDropdown.Item>
-              <NavDropdown.Item href="/Gallery">Animals</NavDropdown.Item>
-              <NavDropdown.Item href="/Gallery">Sports</NavDropdown.Item>
-              <NavDropdown.Item href="/Gallery">Travel</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown title="Deep Dropdown" drop="end" id="deep-dropdown" menuVariant="dark">
-                <NavDropdown.Item href="#deep1">Dropdown 1</NavDropdown.Item>
-                <NavDropdown.Item href="#deep2">Dropdown 2</NavDropdown.Item>
-              </NavDropdown>
-            </NavDropdown>
-
-            <Nav.Link href="/Service">Services</Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
-
+  <Nav.Link as={Link} to="/">Home</Nav.Link>
+  <Nav.Link as={Link} to="/About">About</Nav.Link>
+  
+  <NavDropdown title="Gallery" id="gallery-dropdown" menuVariant="dark">
+    <NavDropdown.Item as={Link} to="/Gallery">Nature</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/Gallery">People</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/Gallery">Architecture</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/Gallery">Animals</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/Gallery">Sports</NavDropdown.Item>
+    <NavDropdown.Item as={Link} to="/Gallery">Travel</NavDropdown.Item>
+  </NavDropdown>
+  
+  <Nav.Link as={Link} to="/Service">Services</Nav.Link>
+  <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
             {/* Social Icons */}
             <div className="d-flex ms-lg-3 socials">
               <a href="#"><i className="bi bi-twitter-x"></i></a>
